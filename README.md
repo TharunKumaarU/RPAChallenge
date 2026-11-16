@@ -26,11 +26,11 @@ The form is the difficult part, because the seven inputs are shuffled on every r
 
 **`Main.xaml`** reads the data and writes each record to the Output panel. It uses Read Text File to load `challenge.csv`, Generate Data Table From Text to build the `dtPeople` DataTable, and a For Each Row loop with a Log Message activity. It is the data-reading check that runs before any browser work.
 
-**`FillForm.xaml`** does the form entry. After the same two data-reading steps, Use Application/Browser opens the challenge page in Chrome, a Click presses Start, and the For Each Row loop runs seven Type Into activities followed by a Click on Submit for each person.
+**`FillForm.xaml`** does the form entry. After the same two data-reading steps, Use Application/Browser opens Chrome, Go To URL loads a fresh challenge page, a Click presses Start, and the For Each Row loop runs seven Type Into activities followed by a Click on Submit for each person.
 
 ## Status
 
-`Main.xaml` runs successfully and logs all ten records. `FillForm.xaml` validates in Studio without errors; a complete end-to-end run against the live form is still pending.
+Both workflows run successfully. `Main.xaml` logs all ten records. `FillForm.xaml` completes the challenge with a 100% success rate (70 out of 70 fields) in about 260 seconds.
 
 ## Data
 

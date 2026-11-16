@@ -105,9 +105,10 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <uix:NGoToUrl DisplayName="Go To URL 'rpachallenge.com'" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Url="https://rpachallenge.com/" />
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="680,48" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' class='waves-effect col s12 m12 l12 btn-large uiColorButton' /&gt;" Guid="94d4e8ae-153a-48aa-a71f-55f9740967a9" SearchSteps="Selector" Version="V6" />
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="94d4e8ae-153a-48aa-a71f-55f9740967a9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
               </uix:NClick.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -127,9 +128,9 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;First Name&quot;).ToString.Trim]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DelayAfter="0" DelayBefore="0" InteractionMode="Simulate" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;First Name&quot;).ToString.Trim]" Version="V5">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelFirstName' /&gt;" Guid="014c0372-7a6e-424d-a5e4-5475c4e5df9c" SearchSteps="Selector" Version="V6" />
+                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelFirstName' /&gt;" Guid="014c0372-7a6e-424d-a5e4-5475c4e5df9c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                       </uix:NTypeInto.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -137,9 +138,9 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Last Name&quot;).ToString.Trim]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DelayAfter="0" DelayBefore="0" InteractionMode="Simulate" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Last Name&quot;).ToString.Trim]" Version="V5">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelLastName' /&gt;" Guid="c266f16c-5378-48df-922f-e34e759b4b6e" SearchSteps="Selector" Version="V6" />
+                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelLastName' /&gt;" Guid="c266f16c-5378-48df-922f-e34e759b4b6e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                       </uix:NTypeInto.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -147,9 +148,9 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Company Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Company Name&quot;).ToString.Trim]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DelayAfter="0" DelayBefore="0" InteractionMode="Simulate" DisplayName="Type Into 'Company Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Company Name&quot;).ToString.Trim]" Version="V5">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelCompanyName' /&gt;" Guid="fdf8b520-6be3-430c-8b89-8260d5ac242a" SearchSteps="Selector" Version="V6" />
+                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelCompanyName' /&gt;" Guid="fdf8b520-6be3-430c-8b89-8260d5ac242a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                       </uix:NTypeInto.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -157,29 +158,19 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Role in Company'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Role in Company&quot;).ToString.Trim]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DelayAfter="0" DelayBefore="0" InteractionMode="Simulate" DisplayName="Type Into 'Role in Company'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Role in Company&quot;).ToString.Trim]" Version="V5">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelRole' /&gt;" Guid="1895e197-25ef-426f-8777-988fb85fd358" SearchSteps="Selector" Version="V6" />
+                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelRole' /&gt;" Guid="1895e197-25ef-426f-8777-988fb85fd358" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                       </uix:NTypeInto.Target>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Address&quot;).ToString.Trim]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DelayAfter="0" DelayBefore="0" InteractionMode="Simulate" DisplayName="Type Into 'Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Address&quot;).ToString.Trim]" Version="V5">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelAddress' /&gt;" Guid="7e69d9b9-3963-4aed-b945-4f867e7185e2" SearchSteps="Selector" Version="V6" />
+                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelAddress' /&gt;" Guid="7e69d9b9-3963-4aed-b945-4f867e7185e2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                       </uix:NTypeInto.Target>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Email&quot;).ToString.Trim]" Version="V5">
+                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DelayAfter="0" DelayBefore="0" InteractionMode="Simulate" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Email&quot;).ToString.Trim]" Version="V5">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelEmail' /&gt;" Guid="cd4389aa-029e-4eea-8063-001d893bc01e" SearchSteps="Selector" Version="V6" />
-                      </uix:NTypeInto.Target>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Phone Number'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Phone Number&quot;).ToString.Trim]" Version="V5">
-                      <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelPhone' /&gt;" Guid="aa8fe30f-d450-451b-8efa-e9423d189a45" SearchSteps="Selector" Version="V6" />
+                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelEmail' /&gt;" Guid="cd4389aa-029e-4eea-8063-001d893bc01e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                       </uix:NTypeInto.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -187,9 +178,19 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="False" ClickType="Single" DisplayName="Click 'Submit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Version="V5">
+                    <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DelayAfter="0" DelayBefore="0" InteractionMode="Simulate" DisplayName="Type Into 'Phone Number'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Text="[CurrentRow(&quot;Phone Number&quot;).ToString.Trim]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' ng-reflect-name='labelPhone' /&gt;" Guid="aa8fe30f-d450-451b-8efa-e9423d189a45" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="False" DelayAfter="0" DelayBefore="0" InteractionMode="Simulate" ClickType="Single" DisplayName="Click 'Submit'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="650,48" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5919ccca-4ade-441d-b475-5b32c5257a0c" Version="V5">
                       <uix:NClick.Target>
-                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="252f52ac-963a-490a-ad87-2eb722d14eeb" SearchSteps="Selector" Version="V6" />
+                        <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" Guid="252f52ac-963a-490a-ad87-2eb722d14eeb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                       </uix:NClick.Target>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
